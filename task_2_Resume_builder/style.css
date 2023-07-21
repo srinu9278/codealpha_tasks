@@ -1,0 +1,80 @@
+#cv-template
+{
+    display: none;
+}
+
+body {
+    background-image: url('../task_2_code_alpha_RESUME_BUILDER/images/resume4.avif');
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust as needed: cover, contain, auto, etc. */
+  }
+.myimg
+{
+    border-radius: 50%;
+    width: 200px;
+}
+span{
+    background-color: tomato;
+    text-shadow: 5px;
+    border-radius: 5px;
+    
+}
+
+
+.background
+{
+    background-color: rgb(127, 185, 255);
+}
+
+.big-size
+{
+    font-size: 35px;
+    
+}
+.small-size
+{
+    font-size: 10px;
+    
+}
+
+label {
+    color: whitesmoke; /* Change this to your desired font color */
+    font-weight: bold; /* Optional: Add any other styles you want for the labels */
+  }
+
+
+
+
+
+
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .marquee p {
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+    color:aliceblue;
+     /* Adjust duration and other properties as needed */
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  h3{
+    color:yellow
+  }
+
+  p
+  {
+    color:cornsilk
+  }
